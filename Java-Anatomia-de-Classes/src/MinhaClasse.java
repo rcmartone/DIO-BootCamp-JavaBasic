@@ -1,9 +1,15 @@
 public class MinhaClasse {
     public static void main(String[] args) {
-       //Teste de nomeclatura de variaveis
-       //int long numero; Nomenclatura invalida, duas palavras reservadas
-       //String %arroz; Nomenclatura invalida, apenas _ e $ podem ser presentes
-       //int 1arroz; Nomenclatura invalida, não pode começar com numeros
+       String primeiroNome = "Rafael";
+       String segundoNome = "Martone" ;
+       String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+       System.out.println(nomeCompleto);
+
+    }
+
+    public static String nomeCompleto(String primeiroNome, String segundoNome){
+       return "Resultado do metodo " + primeiroNome.concat(" ").concat(segundoNome);//Concatena
+       //duas strings
     }
 
 
