@@ -2,28 +2,21 @@ package edu.rafael.tema.Operadores;
 
 public class Operadores {
     public static void main(String[] args) {
+        //Ternário
+        int a, b;
+        a = 5;
+        b = 6;
+        String resultado;
+        //EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+        if (a==b){resultado = "verdadeiro";}
+        else {resultado = "falso";}
+        System.out.println(resultado);
 
-        int numero = 5;
-		
-        //Imprimindo o numero negativo
-        System.out.println(- numero);
+        //MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
+        resultado = (a==b) ? "verdadeiro" : "false";
+        System.out.println(resultado);
         
-        //incrementando numero em mais 1 numero, imprime 6
-        numero ++;
-        System.out.println(numero);
-        
-        //incrementando numero em mais 1 numero, imprime 7
-        System.out.println(numero ++);// ops algo de errado não está certo
-        //A soma ocorre após a leitura do valor > Le 6 e soma +1
-
-        System.out.println(numero);// agora sim, numero virou 7
-        
-        //ordem de precedencia conta aqui
-        System.out.println(++ numero);
-        //Aqui ele soma 1 + numero e então le o valor que é 8
-        
-        boolean verdadeiro = true;
-        
-        System.out.println("Inverteu " + !verdadeiro);
+        resultado = (a != b) ? "Verdadeiro":"Falso";//!= é diferente
+        System.out.println(resultado);
     }
 }
