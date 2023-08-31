@@ -1,3 +1,4 @@
+package edu.rafael.tema.AnatomiaDeClasses;
 public class MinhaClasse {
     public static void main(String[] args) {
        String primeiroNome = "Rafael";

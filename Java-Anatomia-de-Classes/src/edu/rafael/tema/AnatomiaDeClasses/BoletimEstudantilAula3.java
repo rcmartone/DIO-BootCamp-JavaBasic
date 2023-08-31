@@ -1,3 +1,4 @@
+package edu.rafael.tema.AnatomiaDeClasses;
 public class BoletimEstudantilAula3 {
     public static void main(String[] args) {
 		int mediaFinal = 6;
