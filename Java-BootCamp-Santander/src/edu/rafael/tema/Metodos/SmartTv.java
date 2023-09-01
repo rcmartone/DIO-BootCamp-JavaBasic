@@ -2,8 +2,8 @@ package edu.rafael.tema.Metodos;
 
 public class SmartTv {
     boolean ligada = false;
-    int canal = 1;
-    int volume = 25;
+    int canal = 198;
+    int volume = 99;
 
     public void ligar(){
         ligada = true;
@@ -24,6 +24,11 @@ public class SmartTv {
             canal = canal - 1;
         else canal = 200;
     }
+
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+    }
+
 
     public void aumentarVolume(){
         if (volume < 100)

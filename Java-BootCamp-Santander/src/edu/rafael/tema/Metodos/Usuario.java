@@ -29,7 +29,8 @@ public class Usuario {
         smartTv.canalDown();
         System.out.println("Novo estado -> Canal atual: " + smartTv.canal);
 
-
+        smartTv.mudarCanal(50);
+        System.out.println("Novo estado -> Canal atual: " + smartTv.canal);
     }
     
 }
