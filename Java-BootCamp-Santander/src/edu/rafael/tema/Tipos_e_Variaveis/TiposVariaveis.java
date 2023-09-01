@@ -13,7 +13,7 @@ public class TiposVariaveis {
 		    //* esta variavel poderá obter outro valor;
 		    //* logo a linha 25 vai apresentar um erro de compilação
 		    //* isso é considerado uma CONSTANTE na linguagem Java
-		    final double VALOR_DE_PI = 3.1415;
+		    //final double VALOR_DE_PI = 3.1415;
 		    //VALOR_DE_PI=3.15; //Esta linha vai apresentar erro de compilação!
     }
 }
