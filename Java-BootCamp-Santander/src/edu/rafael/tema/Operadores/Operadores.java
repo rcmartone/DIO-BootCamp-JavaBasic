@@ -2,23 +2,25 @@ package edu.rafael.tema.Operadores;
 
 public class Operadores {
     public static void main(String[] args) {
-    int numero1 = 1;
-    int numero2 = 2;
+    
+        //&& Operador Lógico "E"
+        //|| Operador Lógico "OU"
 
-    if(numero1 > numero2)
-	System.out.println("Numero 1 maior que numero 2");
-    else System.out.println("Numero 1 não é maior que numero 2");
+        boolean condicao1=true;
 
-    if(numero1 < numero2)
-	System.out.println("Numero 1 menor que numero 2");
+        boolean condicao2=false;
 
-    if(numero1 >= numero2)
-	System.out.println("Numero 1 maior ou igual que numero 2");
+        /* Aqui estamos utilizando o operador lógico E para fazer a união de duas 
+        expressões. 
+        É como se estivesse escrito:
+        "Se Condicao1 e Condicao2 forem verdadeiras, executar código"
+        */
 
-    if(numero1 <= numero2)
-	System.out.println("Numero 1 menor ou igual que numero 2");
+        if(condicao1 && condicao2)
+	        System.out.print("Os dois valores precisam ser verdadeiros");;
 
-    if(numero1 != numero2)
-	System.out.println("Numero 1 é diferente de numero 2");
+        //Se condicao1 OU condicao2 for verdadeira, executar código.
+        if(condicao1 || condicao2)
+	        System.out.print("Um dos valores precisa ser verdadeiro");
     }
 }
