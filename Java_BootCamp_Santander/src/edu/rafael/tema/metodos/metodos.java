@@ -1,6 +1,6 @@
-package edu.rafael.tema.Metodos;
+package edu.rafael.tema.metodos;
 
-public class Metodos {
+public class metodos {
     public static void main(String[] args) {
 
 

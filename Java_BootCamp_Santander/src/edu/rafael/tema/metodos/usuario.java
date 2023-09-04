@@ -1,8 +1,8 @@
-package edu.rafael.tema.Metodos;
+package edu.rafael.tema.metodos;
 
-public class Usuario {
+public class usuario {
     public static void main(String[] args) {
-        SmartTv smartTv = new SmartTv();
+        smartTv smartTv = new smartTv();
 
         System.out.println("SmartTV ligada? " + smartTv.ligada);
         System.out.println("Canal atual: " + smartTv.canal);

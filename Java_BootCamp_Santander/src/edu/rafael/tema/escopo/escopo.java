@@ -1,6 +1,6 @@
-package edu.rafael.tema.Escopo;
+package edu.rafael.tema.escopo;
 
-public class Escopo {
+public class escopo {
     public class Conta {
         //variavel da classe conta
         double saldo=10.0;

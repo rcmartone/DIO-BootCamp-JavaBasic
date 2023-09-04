@@ -1,5 +1,5 @@
-package edu.rafael.tema.AnatomiaDeClasses;
-public class MinhaClasse {
+package edu.rafael.tema.anatomia_de_classes;
+public class minhaClasse {
     public static void main(String[] args) {
        String primeiroNome = "Rafael";
        String segundoNome = "Martone" ;

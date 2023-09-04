@@ -1,6 +1,6 @@
-package edu.rafael.tema.Tipos_e_Variaveis;
+package edu.rafael.tema.tipos_variaveis;
 
-public class TiposVariaveis {
+public class tiposVariaveis {
     public static void main(String[] args) {
 		    //* esta linha é considerada como declaração de variável iniciamos a existência
 		    //* variavel numero com valor 5 regra: tipo + nome + valor

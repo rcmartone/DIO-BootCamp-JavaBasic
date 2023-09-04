@@ -1,5 +1,5 @@
-package edu.rafael.tema.AnatomiaDeClasses;
-public class BoletimEstudantilAula3 {
+package edu.rafael.tema.anatomia_de_classes;
+public class boletimEstudantilAula3 {
     public static void main(String[] args) {
 		int mediaFinal = 6;
 		if (mediaFinal < 6)

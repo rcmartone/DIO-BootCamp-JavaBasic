@@ -1,4 +1,4 @@
-package edu.rafael.tema.JavaDoc;
+package edu.rafael.tema.javadoc;
 
         /**
 * <h1>Calculadora</h1>
@@ -11,7 +11,7 @@ package edu.rafael.tema.JavaDoc;
 * @version 1.0
 * @since   01/01/2022
 */
-public class Calculadora {
+public class calculadora {
     /**
    * Este método é utilizado para somar dois números inteiros
    * @param numeroUm este é o primeiro parâmetro do método

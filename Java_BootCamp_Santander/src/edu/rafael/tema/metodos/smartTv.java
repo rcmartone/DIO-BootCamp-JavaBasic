@@ -1,6 +1,6 @@
-package edu.rafael.tema.Metodos;
+package edu.rafael.tema.metodos;
 
-public class SmartTv {
+public class smartTv {
     boolean ligada = false;
     int canal = 198;
     int volume = 99;

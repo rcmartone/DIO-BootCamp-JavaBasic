@@ -1,6 +1,6 @@
-package edu.rafael.tema.Operadores;
+package edu.rafael.tema.operadores;
 
-public class Operadores {
+public class operadores {
     public static void main(String[] args) {
     
         //&& Operador Lógico "E"
