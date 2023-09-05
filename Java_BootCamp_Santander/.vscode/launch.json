@@ -1,0 +1,71 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "boletimEstudantilAula3",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.anatomia_de_classes.boletimEstudantilAula3",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "minhaClasse",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.anatomia_de_classes.minhaClasse",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "metodos",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.metodos.metodos",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "usuario",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.metodos.usuario",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "operadores",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.operadores.operadores",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "palavrasReservadas",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.palavras_reservadas.palavrasReservadas",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "minhaClasseTeste",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.terminal_argumentos.minhaClasseTeste",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "tiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.tipos_variaveis.tiposVariaveis",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+    ]
+}
+    
