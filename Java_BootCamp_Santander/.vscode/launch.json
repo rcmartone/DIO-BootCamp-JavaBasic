@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.terminal_argumentos.AboutMe",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Scanner",
+            "request": "launch",
+            "mainClass": "edu.rafael.tema.terminal_argumentos.Scanner",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -65,7 +79,7 @@
             "request": "launch",
             "mainClass": "edu.rafael.tema.tipos_variaveis.tiposVariaveis",
             "projectName": "Java_BootCamp_Santander_e8c8a6e1"
-        },
+        }
     ]
 }
     
