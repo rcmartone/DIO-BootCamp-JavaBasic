@@ -2,19 +2,28 @@ package edu.rafael.Curso.conhecendo_Java.estruturas_condicionais;
 
 import java.util.Scanner;
 
-// Modo condicional if/else
+// Modo condicional switch / case
 public class SistemaMedida {
 	public static void main(String[] args) {
 		String sigla = "M";
-        if(sigla == "P")
-			    System.out.println("PEQUENO");
-		    else if(sigla == "M")
-			    System.out.println("MÉDIO");
-		    else if(sigla == "G")
-			    System.out.println("GRANDE");
-		    else
-			    System.out.println("INDEFINIDO"); 	
+
+		switch (sigla) {
+		case "P":{
+			System.out.println("PEQUENO");
+			break;
+		}
+		case "M":{
+			System.out.println("MÉDIO");
+			break;
+		}
+		case "G":{
+			System.out.println("GRANDE");
+			break;
+		}
+		default:
+			System.out.println("INDEFINIDO");
+		}
+			
 		
-                
 	}
 }
