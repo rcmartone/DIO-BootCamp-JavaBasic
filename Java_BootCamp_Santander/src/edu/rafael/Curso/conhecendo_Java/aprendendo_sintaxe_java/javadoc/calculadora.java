@@ -1,4 +1,4 @@
-package edu.rafael.tema.javadoc;
+package edu.rafael.Curso.conhecendo_Java.aprendendo_sintaxe_java.javadoc;
 
         /**
 * <h1>Calculadora</h1>

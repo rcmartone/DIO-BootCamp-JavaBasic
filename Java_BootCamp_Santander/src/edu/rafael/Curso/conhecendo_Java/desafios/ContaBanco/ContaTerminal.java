@@ -1,4 +1,4 @@
-package desafios.ContaBanco;
+package edu.rafael.Curso.conhecendo_Java.desafios.ContaBanco;
 import java.util.Scanner;
 
 /**
@@ -23,9 +23,8 @@ public class ContaTerminal {
     */
     public static void main(String[] args) {
         //TODO: Conhecer e importar a classe scanner
-        Scanner scanner = new Scanner(System.in);
-
-        //TODO: Exibir as mensagens ao usuario em seguida do uso do scanner
+        try (Scanner scanner = new Scanner(System.in)){
+             //TODO: Exibir as mensagens ao usuario em seguida do uso do scanner
         System.out.println("Por favor, digite o número da conta!");
         int numberAccount = scanner.nextInt();
 
@@ -40,5 +39,13 @@ public class ContaTerminal {
 
         //TODO: Exibição da mensagem final com a conta criada
         System.out.println("Olá " + clientName + " obrigado por criar uma conta em nosso banco, sua agência é " + agency + " conta " + numberAccount + " e seu saldo de " + balance + " já está disponível para saque.");
+        
+        } catch (Exception e) {
+            // TODO: handle exception - Em caso de erros
+        }
+        /*O metodo try-with-resources garante a correção de erros e tem o metodo
+        * close embutido para fechar os scanners em execução.
+         */
+       
     }
 }

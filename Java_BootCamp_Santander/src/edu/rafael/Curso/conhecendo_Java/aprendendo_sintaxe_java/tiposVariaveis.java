@@ -1,4 +1,4 @@
-package edu.rafael.tema.tipos_variaveis;
+package edu.rafael.Curso.conhecendo_Java.aprendendo_sintaxe_java;
 
 public class tiposVariaveis {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.rafael.tema.operadores;
+package edu.rafael.Curso.conhecendo_Java.aprendendo_sintaxe_java.operadores;
 
 public class operadores {
     public static void main(String[] args) {

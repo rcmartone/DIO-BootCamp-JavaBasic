@@ -1,11 +1,19 @@
-package edu.rafael.tema.terminal_argumentos;
+package edu.rafael.Curso.conhecendo_Java.aprendendo_sintaxe_java.terminal_argumentos;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class AboutMe {
     public static void main(String[] args) {
-        //criando o objeto scanner
-        Scanner scanner  = new Scanner(System.in).useLocale(Locale.US);
+        //criando o objeto scanner e definindo ele como vazio.
+        Scanner scanner = null;
+
+        //Tratando a possibilidade de um erro caso o usuario não digite nada.
+    try {
+        scanner = new Scanner(System.in).useLocale(Locale.US);;
+        // usar o Scanner
+    } catch (Exception e) {
+        // tratar os erros
+    }
         
         System.out.println("Digite seu nome");
         String nome = scanner.next();

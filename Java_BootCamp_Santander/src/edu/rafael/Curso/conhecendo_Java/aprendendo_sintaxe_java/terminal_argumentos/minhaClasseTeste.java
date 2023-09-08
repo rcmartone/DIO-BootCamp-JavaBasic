@@ -1,4 +1,4 @@
-package edu.rafael.tema.terminal_argumentos;
+package edu.rafael.Curso.conhecendo_Java.aprendendo_sintaxe_java.terminal_argumentos;
 
 public class minhaClasseTeste {
     /**
