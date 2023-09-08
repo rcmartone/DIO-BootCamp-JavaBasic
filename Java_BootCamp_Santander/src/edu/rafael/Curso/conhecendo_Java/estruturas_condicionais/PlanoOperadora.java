@@ -21,6 +21,9 @@ public class PlanoOperadora {
             /*A falta de break; permite que o switch continue executando os proximos
             *cases, exemplo acima, caso selecione o T, ele executa os cases M e B
             */
+            default:
+			System.out.println("INDEFINIDO");//Default é para opções fora dos cases
+		    
 		}
 	}
 }
