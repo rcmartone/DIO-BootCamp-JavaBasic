@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PlanoOperadora",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.estruturas_condicionais.PlanoOperadora",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "SistemaMedida",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.estruturas_condicionais.SistemaMedida",

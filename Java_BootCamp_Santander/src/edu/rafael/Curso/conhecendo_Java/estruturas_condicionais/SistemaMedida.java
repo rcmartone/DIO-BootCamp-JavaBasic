@@ -1,27 +1,25 @@
 package edu.rafael.Curso.conhecendo_Java.estruturas_condicionais;
 
-import java.util.Scanner;
-
 // Modo condicional switch / case
 public class SistemaMedida {
 	public static void main(String[] args) {
-		String sigla = "M";
+		String sigla = "P";
 
 		switch (sigla) {
-		case "P":{
-			System.out.println("PEQUENO");
-			break;
+		    case "P":{
+			    System.out.println("PEQUENO");
+			    break;
 		}
-		case "M":{
-			System.out.println("MÉDIO");
-			break;
+		    case "M":{
+			    System.out.println("MÉDIO");
+			    break;
 		}
-		case "G":{
-			System.out.println("GRANDE");
-			break;
+		    case "G":{
+			    System.out.println("GRANDE");
+			    break;
 		}
-		default:
-			System.out.println("INDEFINIDO");
+		    default:
+			    System.out.println("INDEFINIDO");
 		}
 			
 		
