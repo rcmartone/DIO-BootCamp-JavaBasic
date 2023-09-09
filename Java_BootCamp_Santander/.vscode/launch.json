@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploBreakContinue",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.estruturas_repetição.ExemploBreakContinue",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "ExemploFor",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.estruturas_repetição.ExemploFor",
