@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorCepExemplo",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.java_tratamento_de_exceções.FormatadorCepExemplo",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "ExemploExcecao",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.java_tratamento_de_exceções.ExemploExcecao",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.java_tratamento_de_exceções.AboutMe",
