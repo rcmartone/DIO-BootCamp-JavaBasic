@@ -10,12 +10,14 @@ public class ExemploFor {
     public static void main(String[] args) {
             //Array com os alunos por indice, 0 a 3
             String alunos[] = { "FELIPE", "JONAS", "JULIA", "MARCOS" };
-            
-            //Controle de fluxo para mostrar qual aluno esta em cada índice
-            for (int x=0; x<alunos.length; x++) {
-                System.out.println("O aluno no indice x=" + x + " é " + alunos[x]);
-            }
-        
+            //Forma abreviada
+	        for(String aluno : alunos) {
+            /* O uso do : define que, a cada iteração a partir do indice 0 até o ultimo
+            indice declarado no caso 3, a execução ocorrerá imprimindo no atual índice e o 
+            incremento no contador que nesse caso é invisivel, será feito de forma automática 
+            */    
+	        System.out.println("Nome do aluno é " + aluno);
+	        }
         }
 	}
 
