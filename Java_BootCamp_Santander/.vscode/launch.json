@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.java_tratamento_de_exceções.AboutMe",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "ExemploDoWhile",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.estruturas_repetição.ExemploDoWhile",

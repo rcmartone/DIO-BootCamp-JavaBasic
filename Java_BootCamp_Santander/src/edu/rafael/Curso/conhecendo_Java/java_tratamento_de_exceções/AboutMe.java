@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class AboutMe {
     public static void main(String[] args) {
+       try { 
         //criando o objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
@@ -30,7 +31,7 @@ public class AboutMe {
         //imprimindo os dados obtidos pelo usuario
         System.out.println("Olá, me chamo " + nome.toUpperCase() + " " + sobrenome.toUpperCase());
         System.out.println("Tenho " + idade + " anos ");
-        System.out.println("Minha altura é " + altura + "cm ");
+        System.out.println("Minha altura é " + altura + " cms ");
         scanner.close(); 
         
         /*Conhecendo algumas exceções já mapeadas
@@ -47,10 +48,16 @@ public class AboutMe {
         try {
             bloco de código conforme esperado
         }catch(Exception e) {
-            precisamos saber qual exceção bloco de código que captura as exceções que podem 
-            acontecer em caso de um fluxo não previsto
+            
         }
 
-        */
+        */   
+        } catch (Exception e) {
+            /*  TODO: handle exception
+            Precisamos saber qual exceção bloco de código que captura as exceções que podem 
+            acontecer em caso de um fluxo não previsto
+            */
+            System.out.println("Os campos idade e altura precisam ser numéricos e no sistema americano de pontuação!!");
+        }
     }
 }
