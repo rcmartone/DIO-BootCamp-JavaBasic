@@ -8,15 +8,14 @@ public class ExemploFor {
     } 
     */
     public static void main(String[] args) {
-
-    //o que importa é somente o bloco condicional
-    int carneirinhos = 1;
-    for( ; carneirinhos <=20; ) {
-     System.out.println(carneirinhos + " - Carneirinho(s)");
-     carneirinhos ++;//adição fora do escopo dos parametros do FOR
-    }
-
-/*for( somente 1x ; deve ser uma expresão boolean; acontecerá a cada final da execução ) { }
-*/
+            //Array com os alunos por indice, 0 a 3
+            String alunos[] = { "FELIPE", "JONAS", "JULIA", "MARCOS" };
+            
+            //Controle de fluxo para mostrar qual aluno esta em cada índice
+            for (int x=0; x<alunos.length; x++) {
+                System.out.println("O aluno no indice x=" + x + " é " + alunos[x]);
+            }
+        
+        }
 	}
-}
+
