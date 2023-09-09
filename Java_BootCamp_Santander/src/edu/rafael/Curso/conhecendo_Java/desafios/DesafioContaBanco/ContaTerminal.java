@@ -1,4 +1,4 @@
-package edu.rafael.Curso.conhecendo_Java.desafios.ContaBanco;
+package edu.rafael.Curso.conhecendo_Java.desafios.DesafioContaBanco;
 import java.util.Scanner;
 
 /**
