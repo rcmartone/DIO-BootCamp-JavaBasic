@@ -8,8 +8,15 @@ public class ExemploFor {
     } 
     */
     public static void main(String[] args) {
-		for(int carneirinhos = 1 ; carneirinhos <=20; carneirinhos ++) {
-			System.out.println(carneirinhos + " - Carneirinho(s)");
-		}
+
+    //o que importa é somente o bloco condicional
+    int carneirinhos = 1;
+    for( ; carneirinhos <=20; ) {
+     System.out.println(carneirinhos + " - Carneirinho(s)");
+     carneirinhos ++;//adição fora do escopo dos parametros do FOR
+    }
+
+/*for( somente 1x ; deve ser uma expresão boolean; acontecerá a cada final da execução ) { }
+*/
 	}
 }
