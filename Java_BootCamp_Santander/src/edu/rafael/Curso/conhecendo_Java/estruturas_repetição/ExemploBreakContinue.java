@@ -6,12 +6,12 @@ public class ExemploBreakContinue {
 	
 	for(int numero = 1; numero <=5; numero ++){
 		if(numero==3)
-			break;
+			continue;//Uso do continue, define que ele pule a iteração com numero = 3
 		
 		System.out.println(numero);
 		
 	}
-	//Qual a saída no console ?
+	//Qual a saída no console ? // 1 2 4 5
 
     }
 }
