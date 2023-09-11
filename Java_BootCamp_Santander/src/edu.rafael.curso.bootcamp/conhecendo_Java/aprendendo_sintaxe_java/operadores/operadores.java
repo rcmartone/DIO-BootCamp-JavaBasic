@@ -1,0 +1,26 @@
+package edu.rafael.curso.bootcamp.conhecendo_Java.aprendendo_sintaxe_java.operadores;
+
+public class operadores {
+    public static void main(String[] args) {
+    
+        //&& Operador Lógico "E"
+        //|| Operador Lógico "OU"
+
+        boolean condicao1=true;
+
+        boolean condicao2=false;
+
+        /* Aqui estamos utilizando o operador lógico E para fazer a união de duas 
+        expressões. 
+        É como se estivesse escrito:
+        "Se Condicao1 e Condicao2 forem verdadeiras, executar código"
+        */
+
+        if(condicao1 && condicao2)
+	        System.out.print("Os dois valores precisam ser verdadeiros");;
+
+        //Se condicao1 OU condicao2 for verdadeira, executar código.
+        if(condicao1 || condicao2)
+	        System.out.print("Um dos valores precisa ser verdadeiro");
+    }
+}
