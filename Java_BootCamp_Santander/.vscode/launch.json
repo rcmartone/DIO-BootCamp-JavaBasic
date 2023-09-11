@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Estabelecimento",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Fundamentos.lanchonete.Estabelecimento",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "classe01",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Fundamentos.classe01",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "classe01",
+            "request": "launch",
+            "mainClass": "classe01",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "Contador",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.ControleDeFluxo.Contador",
