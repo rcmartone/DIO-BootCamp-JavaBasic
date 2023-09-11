@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemaCadastro",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Fundamentos.construtores.SistemaCadastro",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "Escola",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Fundamentos.getter_setters.Escola",
