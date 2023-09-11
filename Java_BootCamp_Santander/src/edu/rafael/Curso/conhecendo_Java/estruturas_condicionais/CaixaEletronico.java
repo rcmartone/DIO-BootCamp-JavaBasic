@@ -1,4 +1,4 @@
-package edu.rafael.curso.bootcamp.conhecendo_Java.estruturas_condicionais;
+package edu.rafael.Curso.conhecendo_Java.estruturas_condicionais;
 
 public class CaixaEletronico {
     public static void main(String[] args) {

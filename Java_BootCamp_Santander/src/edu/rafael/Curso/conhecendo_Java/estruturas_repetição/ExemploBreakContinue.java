@@ -1,4 +1,4 @@
-package edu.rafael.curso.bootcamp.conhecendo_Java.estruturas_repetição;
+package edu.rafael.Curso.conhecendo_Java.estruturas_repetição;
 
 // class ExemploBreakContinue.java
 public class ExemploBreakContinue {

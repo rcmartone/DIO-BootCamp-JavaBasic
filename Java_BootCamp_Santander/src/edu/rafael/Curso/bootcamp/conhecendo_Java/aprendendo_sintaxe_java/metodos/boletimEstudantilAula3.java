@@ -1,4 +1,5 @@
-package edu.rafael.curso.bootcamp.conhecendo_Java.aprendendo_sintaxe_java.anatomia_de_classes;
+package edu.rafael.Curso.bootcamp.conhecendo_Java.aprendendo_sintaxe_java.metodos;
+
 public class boletimEstudantilAula3 {
     public static void main(String[] args) {
 		int mediaFinal = 6;

@@ -1,4 +1,4 @@
-package edu.rafael.curso.bootcamp.conhecendo_Java.aprendendo_sintaxe_java.javadoc;
+package edu.rafael.Curso.conhecendo_Java.aprendendo_sintaxe_java.javadoc;
 
         /**
 * <h1>Calculadora</h1>

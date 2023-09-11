@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Contador",
             "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.ControleDeFluxo.Contador",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "minhaClasse",
+            "request": "launch",
+            "mainClass": "minhaClasse",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "boletimEstudantilAula3",
+            "request": "launch",
+            "mainClass": "boletimEstudantilAula3",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Contador",
+            "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.DesafioControleFluxo.Contador",
             "projectName": "Java_BootCamp_Santander_e8c8a6e1"
         },
