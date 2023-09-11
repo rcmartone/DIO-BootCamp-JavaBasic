@@ -1,4 +1,4 @@
-package edu.rafael.Curso.conhecendo_Java.desafios.DesafioControleFluxo;
+package edu.rafael.curso.bootcamp.conhecendo_Java.desafios.DesafioControleFluxo;
 
 import java.util.Scanner;
 
