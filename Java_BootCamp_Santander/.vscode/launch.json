@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fabrica",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Pilares.Interface.Estabelecimento.Fabrica",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "ComputadorPedrinho",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Pilares.Polimorfismo.ComputadorPedrinho",
