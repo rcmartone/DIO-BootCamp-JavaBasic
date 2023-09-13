@@ -9,7 +9,7 @@ public class ComputadorPedrinho {
 		    NÃO SE SABE QUAL APP 
 		    MAS QUALQUER UM DEVERÁ ENVIAR E RECEBER MENSAGEM
 		 */
-		String appEscolhido="???"; 
+		String appEscolhido="tlg"; 
 		
 		if(appEscolhido.equals("msn"))
 			smi = new MSNMessenger();
