@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.GrandeDeposito.Main",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "BancoApp",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.JurosCompostos.BancoApp",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.Verif_saldoCliente.Main",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "EquilibrandoSaldo",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.Regulando_Saldo.EquilibrandoSaldo",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "BancoOrganizadorAtivos",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.desafios.Deafio_Banco.BancoOrganizadorAtivos",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "Fabrica",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Pilares.Interface.Estabelecimento.Fabrica",
