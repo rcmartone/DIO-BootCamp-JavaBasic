@@ -1,8 +1,13 @@
 package edu.rafael.Curso.Collections_Java.Generic;
 
-public class Box {
-    private Object object;
+/**
+Versão genérica da classe Box.
+@param <T> o tipo do valor sendo armazenado
+*/
+public class Box<T> {
+	// T representa "Type" (tipo)
+    private T t;
 
-    public void set(Object object) { this.object = object; }
-    public Object get() { return object; }
+    public void set(T t) { this.t = t; }
+    public T get() { return t; }
 }
