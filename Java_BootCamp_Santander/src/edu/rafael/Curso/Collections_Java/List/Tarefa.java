@@ -14,5 +14,10 @@ public class Tarefa {
         this.descricao = descricao;
     }
 
+    public String toString(){
+        return "Tarefa{" + 
+        "descricao='" + descricao + '\'' + 
+        '}';
+    }
     
 }

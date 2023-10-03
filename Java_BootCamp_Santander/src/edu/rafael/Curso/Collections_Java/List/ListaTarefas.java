@@ -26,9 +26,9 @@ public class ListaTarefas {
             if (t.getDescricao().equals(descricao)){
                 tarefasParaRemover.add(t);
             }
-            //Remove todas as tarefas com a descrição igual nas duas Listas
-            tarefaList.removeAll(tarefasParaRemover);
         }
+        //Remove todas as tarefas com a descrição igual nas duas Listas
+            tarefaList.removeAll(tarefasParaRemover);
     }
 
     //Tamanho da lista como valor inteiro
@@ -54,7 +54,12 @@ public class ListaTarefas {
         System.out.println("O número total de tarefas na lista é " + listaTarefa.obterNumeroTotalTarefas());
 
         //removendo tarefas com a descricao igual
-        listaTarefa.removerTarefa("Arroz");
+        listaTarefa.removerTarefa("Feijao");
         System.out.println("O número total de tarefas na lista é " + listaTarefa.obterNumeroTotalTarefas());
-    }
+
+        //Obter a descrição das tarefas
+
+        listaTarefa.obterDescricoesTarefas();
+
+    } 
 }
