@@ -2,7 +2,6 @@ package edu.rafael.Curso.Collections_Java.List;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.lang.reflect.Constructor;
 
 public class CarrinhoDeCompras {
     //Atributo Item List
@@ -19,7 +18,7 @@ public class CarrinhoDeCompras {
 
     //Metodo para remover um item com base no nome
     public void removerItem(String name){
-        itemList.remove(name);
+        itemList.remove(Item.getName());
     }
 
     //Metodo para calcular o valor total do carrinho de compras
@@ -55,6 +54,7 @@ public class CarrinhoDeCompras {
         CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
 
         //verificando o se o carrinho possui algum item ou está vazio
+        carrinhoDeCompras.adicionarItem("Item 1", 10.0, 2);
         carrinhoDeCompras.exibirItens();
     }
 }

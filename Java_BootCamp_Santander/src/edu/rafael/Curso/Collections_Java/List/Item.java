@@ -2,7 +2,7 @@ package edu.rafael.Curso.Collections_Java.List;
 
 public class Item {
 
-    private String name;
+    private static String name;
     private double price;
     private int quantityEspec;
 
@@ -13,7 +13,7 @@ public class Item {
         this.quantityEspec = quantity;
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
