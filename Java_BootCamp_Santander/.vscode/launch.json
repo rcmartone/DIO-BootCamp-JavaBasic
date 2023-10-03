@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CarrinhoDeCompras",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.Collections_Java.List.CarrinhoDeCompras",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "ListaTarefas",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.Collections_Java.List.ListaTarefas",

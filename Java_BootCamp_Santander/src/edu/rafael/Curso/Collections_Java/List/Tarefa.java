@@ -6,18 +6,21 @@ public class Tarefa {
     //Atributo descrição
     private String descricao;
 
-    public String getDescricao() {
-        return descricao;
-    }
     //Construtor
     public Tarefa(String descricao) {
         this.descricao = descricao;
     }
 
+    //Metodo Getter
+    public String getDescricao() {
+        return descricao;
+    }
+
+    //Metodo toString
     public String toString(){
-        return "Tarefa{" + 
-        "descricao='" + descricao + '\'' + 
-        '}';
+        return descricao;
+    
     }
     
+
 }

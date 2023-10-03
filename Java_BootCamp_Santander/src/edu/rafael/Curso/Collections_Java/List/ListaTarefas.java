@@ -38,7 +38,7 @@ public class ListaTarefas {
 
     //Imprime a Lista
     public void obterDescricoesTarefas(){
-        System.out.println(tarefaList);
+        System.out.println(tarefaList.toString());
     }
 
     //Testando os métodos
@@ -47,14 +47,15 @@ public class ListaTarefas {
         //verificando o tamanho da lista
         System.out.println("O número total de tarefas na lista é " + listaTarefa.obterNumeroTotalTarefas());
 
-        //Adicionando uma tarefa e verificar o tamanho da lista
+        //Adicionando uma tarefa e verificar o tamanho da lista e a descrição de cada uma
         listaTarefa.adicionarTarefa("Arroz");
         listaTarefa.adicionarTarefa("Arroz");
         listaTarefa.adicionarTarefa("Feijao");
         System.out.println("O número total de tarefas na lista é " + listaTarefa.obterNumeroTotalTarefas());
+        listaTarefa.obterDescricoesTarefas();
 
         //removendo tarefas com a descricao igual
-        listaTarefa.removerTarefa("Feijao");
+        listaTarefa.removerTarefa("Arroz");
         System.out.println("O número total de tarefas na lista é " + listaTarefa.obterNumeroTotalTarefas());
 
         //Obter a descrição das tarefas
