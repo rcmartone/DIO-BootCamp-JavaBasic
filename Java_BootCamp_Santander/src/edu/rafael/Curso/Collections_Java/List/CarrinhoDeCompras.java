@@ -8,17 +8,18 @@ public class CarrinhoDeCompras {
     private List<Item> itemList;
 
     //ArrayList vazio do atributo ItensList
-    public void listaItens() {
+    public CarrinhoDeCompras () {
         this.itemList = new ArrayList<>();
     }
+
     //Metodo que adiciona um novo item a lista com nome, preço e quantidade especificada
     public void adicionarItem(String name, double price, int quantityEspec){
         itemList.add(new Item(name, price, quantityEspec));
     }
 
     //Metodo para remover um item com base no nome
-    public void removerItem(String name){
-        itemList.remove(Item.getName());
+    public void removerItem (String name){
+            itemList.removeIf(item -> item.getName().equals(name));
     }
 
     //Metodo para calcular o valor total do carrinho de compras
@@ -37,7 +38,7 @@ public class CarrinhoDeCompras {
     //Exibe os itens no carrinho com nome, preço e quantidade de cada
     public void exibirItens(){
         if (itemList.size() > 0){
-            System.out.println("O Carrinho possui o(s) seguinte(s) item(ns)");
+            System.out.println("O Carrinho agora possui o(s) seguinte(s) item(ns)");
             for( Item I : itemList){
                 System.out.println("Nome= " + I.getName() + " - " + "Preço= R$ " + I.getPrice() + " - Quantidade Especificada= " + I.getQuantityEspec());
             }
@@ -54,7 +55,10 @@ public class CarrinhoDeCompras {
         CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
 
         //verificando o se o carrinho possui algum item ou está vazio
-        carrinhoDeCompras.adicionarItem("Item 1", 10.0, 2);
+        carrinhoDeCompras.exibirItens();
+        carrinhoDeCompras.adicionarItem("Item 1", 10.0, 3);
+        carrinhoDeCompras.adicionarItem("Item 2", 40.0, 6);
+        carrinhoDeCompras.adicionarItem("Item 3", 60.0, 9);
         carrinhoDeCompras.exibirItens();
     }
 }
