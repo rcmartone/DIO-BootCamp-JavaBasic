@@ -25,8 +25,12 @@ public class Item {
         return quantityEspec;
     }
 
-    //Metodo toString
-    public String toString(double value){
-        return Double.toString(value);
-    }
+    @Override
+	public String toString() {
+		return "\nItem" +
+				"{Nome='" + name + '\'' +
+				", Preço=" + price +
+				", Quantidade=" + quantityEspec +
+				'}';
+	}
 }
