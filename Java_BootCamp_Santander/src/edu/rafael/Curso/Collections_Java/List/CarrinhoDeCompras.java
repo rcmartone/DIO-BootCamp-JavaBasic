@@ -73,25 +73,3 @@ public class CarrinhoDeCompras {
 
     }
 }
-        /* 
-    //Adicionando uma tarefa e verificar o tamanho da lista e a descrição de cada uma
-        listaTarefa.adicionarTarefa("Arroz");
-        listaTarefa.adicionarTarefa("Arroz");
-        listaTarefa.adicionarTarefa("Feijao");
-        System.out.println("O número total de tarefas na lista é " + listaTarefa.obterNumeroTotalTarefas());
-        listaTarefa.obterDescricoesTarefas();
-
-        //removendo tarefas com a descricao igual
-        listaTarefa.removerTarefa("Arroz");
-        System.out.println("O número total de tarefas na lista é " + listaTarefa.obterNumeroTotalTarefas());
-
-        //Obter a descrição das tarefas
-
-        listaTarefa.obterDescricoesTarefas();
-
-    } 
-    
-
-    
-}
-*/
