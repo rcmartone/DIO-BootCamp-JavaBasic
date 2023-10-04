@@ -24,5 +24,9 @@ public class Item {
     public int getQuantityEspec() {
         return quantityEspec;
     }
-    
+
+    //Metodo toString
+    public String toString(double value){
+        return Double.toString(value);
+    }
 }

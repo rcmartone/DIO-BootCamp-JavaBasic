@@ -24,14 +24,14 @@ public class CarrinhoDeCompras {
 
     //Metodo para calcular o valor total do carrinho de compras
 
-    public double calcularValorTotal(){
+    public void calcularValorTotal(){
         double valTotal = 0;
         double valItem;
         for(Item I : itemList){
            valItem =  I.getPrice() * I.getQuantityEspec();
            valTotal = valTotal + valItem;
             }
-            return valTotal;
+            System.out.println("Valor total no carrinho= R$ " + Double.toString(valTotal));
         }
 
 
@@ -56,10 +56,21 @@ public class CarrinhoDeCompras {
 
         //verificando o se o carrinho possui algum item ou está vazio
         carrinhoDeCompras.exibirItens();
-        carrinhoDeCompras.adicionarItem("Item 1", 10.0, 3);
-        carrinhoDeCompras.adicionarItem("Item 2", 40.0, 6);
-        carrinhoDeCompras.adicionarItem("Item 3", 60.0, 9);
+        carrinhoDeCompras.adicionarItem("Arroz", 10.0, 3);
+        carrinhoDeCompras.adicionarItem("Feijao", 40.0, 6);
+        carrinhoDeCompras.adicionarItem("Carne", 60.0, 9);
+        carrinhoDeCompras.adicionarItem("Arroz", 13.0, 1);
         carrinhoDeCompras.exibirItens();
+
+        //Removendo um item do carrinho pelo nome, repitido ou não
+        carrinhoDeCompras.removerItem("Feijao");
+        System.out.println("Removendo item do carrinho");
+        carrinhoDeCompras.exibirItens();
+
+        //Calculando o valor total no carrinho
+        System.out.println("Calculando o valor total no carrinho.");
+        carrinhoDeCompras.calcularValorTotal();
+
     }
 }
         /* 
