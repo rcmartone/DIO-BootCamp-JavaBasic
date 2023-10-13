@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Desafio_7",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.Desafio.Desafio_7",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio_6",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.Desafio.Desafio_6",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio_5",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.Desafio.Desafio_5",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio_4",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.Desafio.Desafio_4",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio_3",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.Desafio.Desafio_3",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio_2",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.Desafio.Desafio_2",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio_1",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.Desafio.Desafio_1",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "ConsumerExample",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.ConsumerExample",

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * Representa uma função que aceita um argumento do tipo T e retorna um valor booleano (verdadeiro oufalso).
+ * Representa uma função que aceita um argumento do tipo T e retorna um valor booleano (verdadeiro ou falso).
  * É comumente usada para filtrar os elementos do Stream com base em alguma condição.
  */
 public class PredicateExample {
@@ -18,8 +18,6 @@ public class PredicateExample {
 
     // Usar o Stream para filtrar as palavras com mais de 5 caracteres e, em seguida,
     // imprimir cada palavra que passou no filtro
-    palavras.stream()
-        .filter(maisDeCincoCaracteres)
-        .forEach(System.out::println);
+    palavras.stream().filter(maisDeCincoCaracteres).forEach(System.out::println);
   }
 }
