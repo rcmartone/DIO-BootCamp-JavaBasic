@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConsumerExample",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.StreamAPI.Functional_Interface.ConsumerExample",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "AgendaContatos",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.Collections_Java.Maps.AgendaContatos",
