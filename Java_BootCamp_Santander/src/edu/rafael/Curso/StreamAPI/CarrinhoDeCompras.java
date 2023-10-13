@@ -3,7 +3,7 @@ package edu.rafael.Curso.StreamAPI;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CarrinhoDeCompras {
+/*public class CarrinhoDeCompras {
     //Atributo Item List
     private List<Item> itemList;
 
@@ -99,4 +99,26 @@ public class CarrinhoDeCompras {
         System.out.println("Calculo do valor total no carrinho= R$ " + carrinhoDeCompras.calcularValorTotal());
 
     }
+}
+*/
+public class CarrinhoDeCompras {
+  //atributos
+  private List<Item> itemList;
+  //construtor
+  public CarrinhoDeCompras() {
+    this.itemList = new ArrayList<>();
+  }
+  
+     public void adicionarItem(String name, double price, int quantityEspec){
+        Item item = new Item(name, price, quantityEspec);
+        this.itemList.add(item);
+    }
+
+  //método para calcular valor total dos itens utilizando o Stream API
+  public double calcularValorTotal() {
+    if (itemList.isEmpty()) {
+      throw new RuntimeException("A lista está vazia!");
+    }
+    return itemList.stream().mapToDouble(item -> item.getPrice() * item.getQuantityEspec()).sum();
+  }
 }
