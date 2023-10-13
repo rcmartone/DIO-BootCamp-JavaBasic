@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AgendaContatos",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.Collections_Java.Maps.AgendaContatos",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoConvidados",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.Collections_Java.Set.ConjuntoConvidados",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "CarrinhoDeCompras",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.Collections_Java.List.CarrinhoDeCompras",
