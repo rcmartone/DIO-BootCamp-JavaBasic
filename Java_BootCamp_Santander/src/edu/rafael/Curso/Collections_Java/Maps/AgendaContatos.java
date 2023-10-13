@@ -52,6 +52,7 @@ public class AgendaContatos {
         agendaContatos.removerContato("Rafael Java");
         agendaContatos.exibirContatos();
 
+        System.out.println("O numero do Rafael Martone é: " + agendaContatos.pesquisarPorNome("Rafael Martone"));
     }
 }
 
