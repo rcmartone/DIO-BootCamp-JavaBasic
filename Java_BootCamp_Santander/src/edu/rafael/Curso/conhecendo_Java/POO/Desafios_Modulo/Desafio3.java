@@ -47,16 +47,20 @@ public class Desafio3{
     
     // TODO: Implemente a condição necessário para a verificação dos cofres seguros:
     if (tipoCofre.equalsIgnoreCase("digital")) {
-        Cofre senhaCofreDigital = new CofreDigital(scanner.nextInt());
-            if (senhaCofreDigital.validarSenha() == true){
-
-            }
-
-            }
+        System.out.println("Digite a senha correta do cofre: ");
+        CofreDigital senhaCofreDigital = new CofreDigital(scanner.nextInt());
+        System.out.println("Digite a senha para entrar: ");
+            if (senhaCofreDigital.validarSenha(scanner.nextInt()) == true){
                 senhaCofreDigital.imprimirInformacoes();
-
-
-
-  }
-}
+                System.out.println("Cofre aberto!");
+            } else{ 
+                senhaCofreDigital.imprimirInformacoes();
+                System.out.println("Senha incorreta!"); 
+            }
+        }
+        else{
+            CofreFisico chaveCofreFisico = new CofreFisico();
+            chaveCofreFisico.imprimirInformacoes();
+        }
+    }
 }
