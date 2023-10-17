@@ -11,7 +11,8 @@ public class Desafio5 {
     String[] partes = entrada.split(",");
 
     // TODO: Solicitar ao usuário que forneça os valores necessários para criar uma Transacao.
-
+    Transacao transacao = new Transacao(partes[0], partes[1], partes[2], Double.parseDouble(partes[3]));
+    transacao.imprimir();
   }
 }
 
