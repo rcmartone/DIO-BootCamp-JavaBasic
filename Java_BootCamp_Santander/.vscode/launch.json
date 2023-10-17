@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Desafio3",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Desafios_Modulo.Desafio3",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio2",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Desafios_Modulo.Desafio2",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
+            "name": "Desafio",
+            "request": "launch",
+            "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Desafios_Modulo.Desafio",
+            "projectName": "Java_BootCamp_Santander_e8c8a6e1"
+        },
+        {
+            "type": "java",
             "name": "Celular_Usuario",
             "request": "launch",
             "mainClass": "edu.rafael.Curso.conhecendo_Java.POO.Desafio_Iphone.Celular.Celular_Usuario",
