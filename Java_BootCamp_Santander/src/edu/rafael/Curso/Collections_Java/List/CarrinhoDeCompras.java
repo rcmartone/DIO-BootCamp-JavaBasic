@@ -90,7 +90,7 @@ public class CarrinhoDeCompras {
         System.out.println("Calculo do valor total no carrinho= R$ " + carrinhoDeCompras.calcularValorTotal());
 
 
-        //Removendo um item do carrinho pelo nome, repitido ou não
+        //Removendo um item do carrinho pelo nome,  repitido ou não
         carrinhoDeCompras.removerItem("Feijao");
         System.out.println("Removendo item do carrinho");
         carrinhoDeCompras.exibirItens();
